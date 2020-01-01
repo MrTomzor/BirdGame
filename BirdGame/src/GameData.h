@@ -19,7 +19,7 @@ class GameData {
 public:
 	MapType mapID;
 	int playerCount;
-	int maxPlayerLives = 1;
+	int maxPlayerLives = 3;
 	int playerInputSource[4];
 	BirdModel birdSelected[6];
 	bool playerReady[6];
